@@ -1,7 +1,7 @@
 from crawler.NaverCrawler import getURLs
 
 keyword = "스타 빨무"
-start_date = "20220601"
+start_date = "20190825"
 end_date = "20220825"
 where = "blog"
 
