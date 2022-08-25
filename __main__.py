@@ -3,7 +3,7 @@ from crawler.NaverCrawler import getURLs
 keyword = "스타 빨무"
 start_date = "20220601"
 end_date = "20220825"
-where = "cafe"
+where = "blog"
 
 result = getURLs(keyword, where, start_date, end_date)
 
