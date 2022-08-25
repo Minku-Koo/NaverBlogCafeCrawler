@@ -1,3 +1,3 @@
 def listToTXT(L, filename):
-    with open("output/{filename}", "w", encoding="utf8") as f:
-        f.writelines(L)
+    with open(f"output/{filename}", "w", encoding="utf8") as f:
+        f.write("\n".join(L))

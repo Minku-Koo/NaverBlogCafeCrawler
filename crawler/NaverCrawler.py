@@ -47,7 +47,7 @@ def getURLs(
         h = a["href"]
         if h == "#":
             continue
-        urls.add(h)
+        urls.add(h.replace("\\\"", ""))
 
     result = list(urls)
 
