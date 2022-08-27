@@ -23,3 +23,4 @@ for keyword in keywords:
     listToTXT(result, f"{keyword}_{start_date}_{end_date}_{where}.txt")
     print(f"{keyword} {where} 총 {len(result)}개 크롤링 완료\n")
 
+# data analysis
